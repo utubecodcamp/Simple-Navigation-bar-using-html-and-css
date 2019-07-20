@@ -1,0 +1,31 @@
+body{
+    background-color: orange;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+li{
+    float: left;
+    text-transform: capitalize;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    display: block;
+    width: 70px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 45px;
+}
+
+a:active, a:hover{
+    color: #fff; 
+    background-color: #000;
+}
